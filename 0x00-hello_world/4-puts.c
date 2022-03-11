@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * main entry point
+ * main - Entry point
  *
- * puts print output
+ * puts - print output
  *
- * return - always 0
+ * return: always 0(Success)
  */
 int main(void)
 {
