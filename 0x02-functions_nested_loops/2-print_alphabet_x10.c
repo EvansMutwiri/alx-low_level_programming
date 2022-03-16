@@ -8,16 +8,15 @@ include "main.h"
  */
 void print_alphabet_x10(void)
 {
-	char ch = 'a';
-	int i = 0;
+	int i;
+	char c;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		for (ch = 'a'; ch <= 'z'; ch++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(ch);
+			_putchar(c);
 		}
-		i++;
-		_putchar(10);
+		_putchar('\n');
 	}
 }
