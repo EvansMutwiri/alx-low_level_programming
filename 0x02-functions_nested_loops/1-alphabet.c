@@ -2,8 +2,8 @@
 /**
  *
  * print_alphabet - function printing alphabet
- * 
- **/
+ *
+ */
 void print_alphabet(void)
 {
 	int i;
